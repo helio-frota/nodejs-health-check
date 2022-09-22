@@ -8,7 +8,8 @@
     "test": "nyc --reporter=lcov mocha",
     "release": "standard-version -a",
     "openshift": "nodeshift --dockerImage=registry.access.redhat.com/ubi8/nodejs-16",
-    "start": "node ."
+    "start": "node .",
+    "dev": "nodemon node ."
   },
   "main": "./bin/www",
   "files": [
@@ -31,6 +32,7 @@
     "eslint": "^8.22.0",
     "eslint-config-semistandard": "^17.0.0",
     "mocha": "^10.0.0",
+    "nodemon": "^2.0.20",
     "nodeshift": "~8.7.0",
     "nyc": "~15.1.0",
     "proxyquire": "~2.1.3",

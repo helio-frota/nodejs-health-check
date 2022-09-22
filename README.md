@@ -23,6 +23,12 @@ If you want debug information, you can set `DEBUG` environment variable and star
 $ DEBUG=* npm start
 ```
 
+### Dev mode
+
+```
+npm run dev
+```
+
 This will launch the application on port 8080.
 
 ### OpenShift Local
